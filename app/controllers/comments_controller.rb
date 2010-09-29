@@ -15,7 +15,7 @@ class CommentsController < ApplicationController
     @comment = Comment.new(params[:comment])
     if @comment.save
       flash[:notice] = "Successfully created comment."
-      redirect_to @comment
+      redirect_to @comment.commentable
     else
       render :action => 'new'
     end

@@ -1,4 +1,6 @@
 SimpleRails::Application.routes.draw do
+  resources :products
+
   resources :comments
 
   resources :posts
