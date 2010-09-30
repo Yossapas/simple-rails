@@ -1,4 +1,4 @@
-1285833913
+1285835057
 Application	/home/phuketschool/dev/ror/simple-rails/config/application.rb	  class Application 
 ApplicationController	/home/phuketschool/dev/ror/simple-rails/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/phuketschool/dev/ror/simple-rails/app/helpers/application_helper.rb	module ApplicationHelper
