@@ -1,4 +1,4 @@
-1286009729
+1286014075
 AddAttachmentPhotoToProduct	/home/phuketschool/dev/ror/simple-rails/db/migrate/20101002083744_add_attachment_photo_to_product.rb	class AddAttachmentPhotoToProduct 
 Application	/home/phuketschool/dev/ror/simple-rails/config/application.rb	  class Application 
 ApplicationController	/home/phuketschool/dev/ror/simple-rails/app/controllers/application_controller.rb	class ApplicationController 

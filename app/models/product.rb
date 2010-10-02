@@ -1,7 +1,7 @@
 class Product < ActiveRecord::Base
   #attr_accessible :name, :description, :price
   
-  has_attached_file :photo, :styles => { :small => "150x150>" },
+  has_attached_file :photo, :styles => { :tiny => "50x50#", :small => "150x150>" },
                     :url  => "/assets/products/:id/:style/:basename.:extension",
                     :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
                   
