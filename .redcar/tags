@@ -1,4 +1,5 @@
-1285835057
+1286009596
+AddAttachmentPhotoToProduct	/home/phuketschool/dev/ror/simple-rails/db/migrate/20101002083744_add_attachment_photo_to_product.rb	class AddAttachmentPhotoToProduct 
 Application	/home/phuketschool/dev/ror/simple-rails/config/application.rb	  class Application 
 ApplicationController	/home/phuketschool/dev/ror/simple-rails/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/phuketschool/dev/ror/simple-rails/app/helpers/application_helper.rb	module ApplicationHelper
@@ -26,6 +27,10 @@ ProductsControllerTest	/home/phuketschool/dev/ror/simple-rails/test/functional/p
 ProductsHelper	/home/phuketschool/dev/ror/simple-rails/app/helpers/products_helper.rb	module ProductsHelper
 SimpleRails	/home/phuketschool/dev/ror/simple-rails/config/application.rb	module SimpleRails
 TestCase	/home/phuketschool/dev/ror/simple-rails/test/test_helper.rb	class ActiveSupport::TestCase
+WelcomeController	/home/phuketschool/dev/ror/simple-rails/app/controllers/welcome_controller.rb	class WelcomeController 
+WelcomeControllerTest	/home/phuketschool/dev/ror/simple-rails/test/functional/welcome_controller_test.rb	class WelcomeControllerTest 
+WelcomeHelper	/home/phuketschool/dev/ror/simple-rails/app/helpers/welcome_helper.rb	module WelcomeHelper
+WelcomeHelperTest	/home/phuketschool/dev/ror/simple-rails/test/unit/helpers/welcome_helper_test.rb	class WelcomeHelperTest 
 create	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def create
 create	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def create
 create	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def create
@@ -35,6 +40,7 @@ destroy	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_control
 down	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929084355_create_posts.rb	  def self.down
 down	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929085614_create_comments.rb	  def self.down
 down	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929092455_create_products.rb	  def self.down
+down	/home/phuketschool/dev/ror/simple-rails/db/migrate/20101002083744_add_attachment_photo_to_product.rb	  def self.down
 edit	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def edit
 edit	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def edit
 edit	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def edit
@@ -43,10 +49,12 @@ error_messages_for	/home/phuketschool/dev/ror/simple-rails/app/helpers/error_mes
 index	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def index
 index	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def index
 index	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def index
+index	/home/phuketschool/dev/ror/simple-rails/app/controllers/welcome_controller.rb	  def index
 javascript	/home/phuketschool/dev/ror/simple-rails/app/helpers/layout_helper.rb	  def javascript
 new	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def new
 new	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def new
 new	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def new
+search	/home/phuketschool/dev/ror/simple-rails/app/models/product.rb	  def self.search
 show	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def show
 show	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def show
 show	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def show
@@ -87,6 +95,7 @@ title	/home/phuketschool/dev/ror/simple-rails/app/helpers/layout_helper.rb	  def
 up	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929084355_create_posts.rb	  def self.up
 up	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929085614_create_comments.rb	  def self.up
 up	/home/phuketschool/dev/ror/simple-rails/db/migrate/20100929092455_create_products.rb	  def self.up
+up	/home/phuketschool/dev/ror/simple-rails/db/migrate/20101002083744_add_attachment_photo_to_product.rb	  def self.up
 update	/home/phuketschool/dev/ror/simple-rails/app/controllers/comments_controller.rb	  def update
 update	/home/phuketschool/dev/ror/simple-rails/app/controllers/posts_controller.rb	  def update
 update	/home/phuketschool/dev/ror/simple-rails/app/controllers/products_controller.rb	  def update

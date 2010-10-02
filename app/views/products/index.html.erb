@@ -1,21 +1,18 @@
 <% title "Products" %>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Price</th>
-  </tr>
-  <% for product in @products %>
-    <tr>
-      <td><%= product.name %></td>
-      <td><%= product.description %></td>
-      <td><%= product.price %></td>
-      <td><%= link_to "Show", product %></td>
-      <td><%= link_to "Edit", edit_product_path(product) %></td>
-      <td><%= link_to "Destroy", product, :confirm => 'Are you sure?', :method => :delete %></td>
-    </tr>
-  <% end %>
-</table>
+<%= form_tag products_path, :method => :get, :remote => true do %>
+
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search" %>
+  </p>
+
+<% end %>
+
+<hr/>
+<div id="products">
+  <%= render @products %>
+</div>
+
 
 <p><%= link_to "New Product", new_product_path %></p>
